@@ -1,0 +1,40 @@
+.expenseList{
+ 
+    background-color: rgb(27, 25, 25);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pricepart h1{
+    background-color: rgb(105, 12, 105);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.x{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+
+.y{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.x div{
+    margin: 0px 15px;
+}

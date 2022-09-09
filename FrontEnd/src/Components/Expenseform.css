@@ -1,0 +1,72 @@
+.dnone{
+    display: none;
+}
+
+.dblock{
+    display: block ;
+}
+
+#f1{
+    box-sizing: border-box;
+    width: 70%;
+    margin:20px auto;
+    background-color: magenta;
+    padding: 40px 20px;
+}
+
+.dFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items:20px auto;
+    margin: 20px 0px;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+input{
+    outline:none;
+    padding: 5px 10px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+}
+
+.dFlex1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dFlex1 input   {
+    background-color: purple;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.d1{
+    width: 70%;
+    padding: 30px 0px;
+    background-color: rgb(148, 135, 200);
+    display: grid;
+    border-radius: 5px;
+    place-items: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.d1 button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
